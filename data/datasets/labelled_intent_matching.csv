@@ -1,0 +1,1001 @@
+id,intent,gold_service,split
+M0105,"I need mmtc for a new session, bandwidth 10Mbps",mMTC,train
+M0800,Enable video conference for the factory network,Video,train
+M0164,Request support for emergency,Emergency,train
+M0437,"Please provision mission critical push to talk during peak load, bandwidth 40Mbps",Emergency,train
+M0871,"Set up critical push to talk during peak load, latency 50ms",Emergency,test
+M0071,Please provision conversation with reliable delivery,Voice,test
+M0062,Configure service for enhanced mobile broadband during peak load,eMBB,train
+M0382,"Create a network intent for sensor data for a customer application, latency 10ms",IoT,train
+M0101,"I would like to use first responder during peak load, bandwidth 80Mbps",Emergency,test
+M0626,I need mission critical push to talk for a connected device,Emergency,test
+M0831,My application needs low latency critical for a mobile user,URLLC,test
+M0828,I need streaming for the factory network,Video,train
+M0513,"I need stream video for a customer application, bandwidth 20Mbps",Video,train
+M0697,"My application needs sensor data during peak load, latency 20ms, bandwidth 40Mbps",IoT,train
+M0429,"Enable video call for the factory network, bandwidth 2Mbps",Video,train
+M0250,"Set up urllc for the factory network, latency 50ms",URLLC,train
+M0866,Set up ultra-reliable low-latency communication in the cellular network,URLLC,test
+M0017,"Configure service for first responder for a connected device, bandwidth 80Mbps",Emergency,train
+M0593,"Create a network intent for urllc for a new session, bandwidth 30Mbps",URLLC,train
+M0467,Please provision ultra reliable low latency with reliable delivery,URLLC,train
+M0774,My application needs iot for a connected device,IoT,train
+M0820,"Configure service for conversation for a new session, latency 100ms",Voice,train
+M0366,Configure service for video streaming for a new session,Video,test
+M0583,"Configure service for streaming for a new session, latency 50ms",Video,train
+M0814,"Please provision video call, latency 20ms",Video,train
+M0961,"Please provision video streaming for a mobile user, latency 80ms, bandwidth 40Mbps",Video,test
+M0411,Set up ultra-reliable low-latency communication in the cellular network,URLLC,test
+M0825,"Request support for high throughput broadband for a new session, bandwidth 20Mbps",eMBB,train
+M0455,I need mmtc for a mobile user,mMTC,train
+M0730,"Create a network intent for streaming, latency 10ms",Video,train
+M0264,My application needs ultra-reliable low-latency communication,URLLC,train
+M0744,My application needs video streaming for a mobile user,Video,train
+M0554,I need phone call during peak load,Voice,train
+M0622,"Please provision embb during peak load, latency 100ms",eMBB,train
+M0154,"I need massive machine type communication for the factory network, latency 50ms",mMTC,train
+M0324,Allocate resources for video conference during peak load,Video,train
+M0040,"Configure service for urllc, latency 80ms",URLLC,train
+M0578,Please provision sensor data for a customer application,IoT,train
+M0109,"My application needs sensor data for the factory network, latency 20ms, bandwidth 10Mbps",IoT,train
+M0125,"Create a network intent for high throughput broadband in the cellular network, bandwidth 40Mbps",eMBB,train
+M0505,"I would like to use conversation for the factory network, latency 10ms, bandwidth 20Mbps",Voice,train
+M0699,I need enhanced mobile broadband in the cellular network,eMBB,train
+M0701,"Please provision voice call for the factory network, bandwidth 10Mbps",Voice,test
+M0457,"I would like to use stream video for a customer application, latency 10ms, bandwidth 40Mbps",Video,train
+M0951,Set up enhanced mobile broadband for the factory network,eMBB,test
+M0942,Allocate resources for internet of things in the cellular network,IoT,train
+M0643,"Configure service for embb in the cellular network, latency 50ms",eMBB,train
+M0756,Create a network intent for massive machine type communication,mMTC,test
+M0870,"My application needs video streaming for a connected device, critical priority",Video,train
+M0034,"My application needs mobile broadband as a priority service, latency 100ms, critical priority",eMBB,train
+M0826,"Allocate resources for massive iot for a new session, latency 10ms, critical priority",mMTC,test
+M0444,I would like to use mcptt with reliable delivery,Emergency,train
+M0212,I need video call in the cellular network,Video,train
+M0750,I need voice service for the factory network,Voice,train
+M0658,"I would like to use massive iot for a mobile user, latency 10ms",mMTC,train
+M0306,Set up ultra reliable low latency as a priority service,URLLC,test
+M0128,Enable video conference,Video,train
+M0654,Configure service for mission critical push to talk for a mobile user,Emergency,train
+M0290,Enable emergency communication as a priority service,Emergency,train
+M0879,I need sensor telemetry in the cellular network,IoT,train
+M0889,"Request support for massive iot, latency 20ms, bandwidth 10Mbps",mMTC,train
+M0711,Allocate resources for sensor telemetry,IoT,test
+M0267,Enable conversation for a customer application,Voice,train
+M0600,I need urllc in the cellular network,URLLC,train
+M0585,"My application needs internet of things as a priority service, bandwidth 80Mbps",IoT,train
+M0047,Enable ultra-reliable low-latency communication for a mobile user,URLLC,train
+M0882,My application needs massive machine type communication for a customer application,mMTC,train
+M0134,Configure service for voice service during peak load,Voice,train
+M0094,"Enable mission critical push to talk, latency 10ms",Emergency,train
+M0878,Enable critical push to talk for the factory network,Emergency,train
+M0890,Enable conversation as a priority service,Voice,train
+M0121,"Set up stream video as a priority service, latency 100ms, bandwidth 80Mbps",Video,test
+M0318,Enable emergency for the factory network,Emergency,train
+M0090,Enable high throughput broadband for a new session,eMBB,train
+M0356,Please provision high throughput broadband for a new session,eMBB,test
+M0540,"Allocate resources for phone call for the factory network, critical priority",Voice,train
+M0130,"Allocate resources for sensor telemetry, latency 10ms",IoT,train
+M0293,"I need embb, bandwidth 40Mbps",eMBB,train
+M0634,"Please provision sensor data, latency 100ms",IoT,train
+M0808,"Request support for critical push to talk for a customer application, latency 10ms",Emergency,train
+M0323,Enable phone call for a connected device,Voice,train
+M0746,My application needs machine telemetry in the cellular network,IoT,test
+M0292,"Create a network intent for ultra-reliable low-latency communication for a mobile user, latency 100ms",URLLC,train
+M0607,"I would like to use low latency critical for a customer application, latency 50ms",URLLC,train
+M0786,Set up video conference for a connected device,Video,test
+M0305,"Configure service for sensor data in the cellular network, bandwidth 30Mbps",IoT,train
+M0967,"I would like to use voice service as a priority service, latency 50ms",Voice,train
+M0198,Allocate resources for video call for a new session,Video,train
+M0606,"My application needs sensor data for the factory network, critical priority",IoT,test
+M0274,"Set up phone call for a new session, latency 100ms",Voice,train
+M0598,"Enable mission critical push to talk for a customer application, latency 80ms",Emergency,train
+M0988,"I need voice call for a customer application, latency 20ms",Voice,train
+M0958,"I need high throughput broadband for the factory network, latency 50ms, critical priority",eMBB,train
+M0159,Set up ultra reliable low latency during peak load,URLLC,train
+M0954,I would like to use video conference during peak load,Video,train
+M0317,"Please provision streaming for a customer application, bandwidth 10Mbps",Video,train
+M0177,"My application needs stream video with reliable delivery, bandwidth 40Mbps, critical priority",Video,train
+M0721,"Create a network intent for massive iot for a new session, latency 50ms, bandwidth 30Mbps",mMTC,test
+M0909,"I need embb with reliable delivery, bandwidth 10Mbps",eMBB,train
+M0321,"My application needs mobile broadband for a customer application, bandwidth 10Mbps",eMBB,test
+M0754,"Enable ultra reliable low latency for a new session, latency 80ms",URLLC,train
+M0475,"Create a network intent for embb for a mobile user, latency 20ms",eMBB,train
+M0893,"Allocate resources for internet of things for a connected device, bandwidth 10Mbps",IoT,train
+M0334,"Enable low latency critical for a customer application, latency 10ms",URLLC,train
+M0470,Request support for conversation as a priority service,Voice,train
+M0055,"My application needs embb for a customer application, latency 20ms",eMBB,train
+M0213,"I need emergency communication during peak load, bandwidth 80Mbps",Emergency,train
+M0410,Enable sensor telemetry for a connected device,IoT,train
+M0098,Enable massive machine type communication,mMTC,train
+M0345,"Set up stream video during peak load, bandwidth 30Mbps",Video,train
+M0238,"Create a network intent for massive iot in the cellular network, latency 10ms",mMTC,train
+M0579,Allocate resources for ultra reliable low latency during peak load,URLLC,train
+M0913,"My application needs emergency for a mobile user, latency 250ms, bandwidth 40Mbps",Emergency,train
+M0927,I would like to use emergency communication for the factory network,Emergency,train
+M0402,I need critical push to talk as a priority service,Emergency,train
+M0161,"Enable mmtc for a connected device, bandwidth 80Mbps",mMTC,test
+M0231,Create a network intent for massive sensors for a mobile user,mMTC,test
+M0595,"Set up massive sensors, latency 250ms, critical priority",mMTC,train
+M0708,Allocate resources for voice call with reliable delivery,Voice,train
+M0564,I would like to use machine telemetry for a connected device,IoT,train
+M0166,"Set up ultra-reliable low-latency communication as a priority service, latency 80ms, critical priority",URLLC,test
+M0435,Enable voip as a priority service,Voice,train
+M0225,"Enable voice call for a connected device, bandwidth 40Mbps",Voice,train
+M0627,Allocate resources for machine telemetry as a priority service,IoT,train
+M0369,"Create a network intent for urllc for a new session, bandwidth 40Mbps",URLLC,train
+M0136,"Allocate resources for emergency communication, latency 20ms",Emergency,test
+M0202,"My application needs embb, latency 250ms",eMBB,train
+M0482,Allocate resources for embb for a new session,eMBB,train
+M0085,"I need phone call with reliable delivery, latency 250ms, bandwidth 2Mbps",Voice,train
+M0357,"Allocate resources for massive iot for a connected device, bandwidth 80Mbps",mMTC,train
+M0296,Create a network intent for video streaming for a customer application,Video,test
+M0486,I need mcptt for a mobile user,Emergency,test
+M0220,"I would like to use mission critical push to talk with reliable delivery, latency 80ms",Emergency,train
+M0515,My application needs sensor telemetry for a new session,IoT,train
+M0669,"My application needs machine telemetry with reliable delivery, bandwidth 2Mbps",IoT,train
+M0596,I need phone call with reliable delivery,Voice,test
+M0363,Request support for mobile broadband for a new session,eMBB,train
+M0492,Request support for streaming for a mobile user,Video,train
+M0777,"Request support for massive machine type communication for the factory network, bandwidth 40Mbps",mMTC,train
+M0884,Allocate resources for video call,Video,train
+M0867,Create a network intent for mobile broadband in the cellular network,eMBB,train
+M0764,Request support for phone call for a connected device,Voice,train
+M0815,"Request support for mission critical push to talk for a new session, critical priority",Emergency,train
+M0925,"I would like to use voice call in the cellular network, latency 10ms, bandwidth 20Mbps, critical priority",Voice,train
+M0257,"Create a network intent for urllc with reliable delivery, bandwidth 5Mbps",URLLC,train
+M0122,"Enable critical push to talk as a priority service, critical priority",Emergency,train
+M0650,"Request support for embb for a connected device, critical priority",eMBB,train
+M0713,"Allocate resources for high throughput broadband in the cellular network, bandwidth 40Mbps",eMBB,train
+M0646,"My application needs streaming, latency 50ms",Video,test
+M0555,Configure service for video conference for a customer application,Video,train
+M0266,Enable massive machine type communication for a mobile user,mMTC,test
+M0687,My application needs voice call with reliable delivery,Voice,train
+M0998,Enable sensor telemetry for a customer application,IoT,train
+M0447,Request support for enhanced mobile broadband in the cellular network,eMBB,train
+M0285,"Configure service for urllc during peak load, bandwidth 2Mbps",URLLC,train
+M0679,"My application needs massive sensors for a new session, latency 250ms",mMTC,train
+M0353,"Enable mcptt as a priority service, bandwidth 30Mbps, critical priority",Emergency,train
+M0119,Configure service for mmtc in the cellular network,mMTC,train
+M0534,My application needs streaming,Video,train
+M0530,Set up urllc for a mobile user,URLLC,train
+M0348,Allocate resources for ultra-reliable low-latency communication as a priority service,URLLC,train
+M0350,My application needs massive iot for the factory network,mMTC,train
+M0601,"Allocate resources for mobile broadband for a mobile user, latency 100ms, bandwidth 80Mbps",eMBB,test
+M0315,Request support for massive sensors for a mobile user,mMTC,train
+M0806,Please provision voip for a connected device,Voice,test
+M0172,"Allocate resources for internet of things for a connected device, latency 50ms",IoT,train
+M0684,Create a network intent for urllc for a new session,URLLC,train
+M0997,"I need mcptt during peak load, latency 10ms, bandwidth 5Mbps",Emergency,train
+M0690,I need sensor data in the cellular network,IoT,train
+M0381,"Enable critical push to talk for the factory network, bandwidth 10Mbps",Emergency,test
+M0771,"My application needs voip with reliable delivery, critical priority",Voice,test
+M0009,"I would like to use video conference during peak load, bandwidth 80Mbps",Video,train
+M0091,"Allocate resources for massive machine type communication for a customer application, latency 250ms",mMTC,test
+M0717,"Enable first responder for a new session, bandwidth 80Mbps",Emergency,train
+M0204,Create a network intent for phone call for the factory network,Voice,train
+M0400,"Enable phone call for the factory network, latency 100ms",Voice,train
+M0594,I would like to use mobile broadband as a priority service,eMBB,train
+M0335,Set up mobile broadband as a priority service,eMBB,train
+M0689,"I would like to use emergency for a new session, bandwidth 40Mbps",Emergency,train
+M0137,"Configure service for sensor data for a new session, bandwidth 10Mbps",IoT,train
+M0421,"Configure service for voice service for a new session, latency 10ms, bandwidth 20Mbps",Voice,test
+M0042,Please provision massive iot in the cellular network,mMTC,train
+M0573,"Allocate resources for high throughput broadband for the factory network, bandwidth 80Mbps, critical priority",eMBB,train
+M0753,"I need iot for the factory network, bandwidth 20Mbps",IoT,train
+M0904,"Allocate resources for voice service during peak load, latency 20ms",Voice,train
+M0956,I would like to use internet of things during peak load,IoT,test
+M0076,"Request support for high throughput broadband for a connected device, latency 80ms",eMBB,test
+M0074,Enable sensor data for a new session,IoT,train
+M0597,"Enable streaming for a connected device, bandwidth 40Mbps",Video,train
+M0208,"Set up low latency critical with reliable delivery, latency 250ms",URLLC,train
+M0331,"My application needs streaming, latency 10ms, critical priority",Video,test
+M0368,I need iot in the cellular network,IoT,train
+M0474,"I would like to use low latency critical, critical priority",URLLC,train
+M0131,Request support for ultra-reliable low-latency communication,URLLC,test
+M0303,I need video conference for the factory network,Video,train
+M0901,"Create a network intent for ultra reliable low latency for a customer application, latency 250ms, bandwidth 30Mbps",URLLC,test
+M0493,"Please provision mission critical push to talk, latency 250ms, bandwidth 10Mbps",Emergency,train
+M0079,"My application needs video call as a priority service, latency 250ms",Video,train
+M0940,"Enable video conference for a connected device, latency 20ms",Video,train
+M0500,I would like to use critical push to talk during peak load,Emergency,train
+M0760,"Enable machine telemetry, latency 50ms, critical priority",IoT,train
+M0282,Create a network intent for video conference with reliable delivery,Video,train
+M0270,Allocate resources for sensor data during peak load,IoT,train
+M0670,"Set up low latency critical, latency 20ms",URLLC,train
+M0976,"Configure service for emergency for a new session, latency 10ms",Emergency,test
+M0959,My application needs massive machine type communication for a customer application,mMTC,train
+M0615,Create a network intent for high throughput broadband as a priority service,eMBB,train
+M0724,"Request support for mission critical push to talk for a mobile user, latency 20ms",Emergency,train
+M0980,"I need mmtc, critical priority",mMTC,train
+M0339,Allocate resources for emergency for a mobile user,Emergency,train
+M0099,Configure service for voice call for a mobile user,Voice,train
+M0819,Enable massive sensors for a new session,mMTC,train
+M0818,Request support for embb for a new session,eMBB,train
+M0675,Set up emergency communication for a new session,Emergency,train
+M0194,Enable low latency critical for a mobile user,URLLC,train
+M0712,"Please provision urllc for the factory network, latency 100ms",URLLC,train
+M0765,"My application needs stream video for a connected device, bandwidth 40Mbps",Video,train
+M0984,I need iot for a customer application,IoT,train
+M0022,"My application needs voice call during peak load, latency 80ms",Voice,train
+M0374,Request support for first responder for a new session,Emergency,train
+M0354,Create a network intent for internet of things,IoT,train
+M0210,"Request support for mmtc for a customer application, critical priority",mMTC,train
+M0426,Please provision high throughput broadband for a new session,eMBB,test
+M0068,I would like to use ultra reliable low latency for a connected device,URLLC,train
+M0463,"Please provision voice call for the factory network, latency 100ms, critical priority",Voice,train
+M0158,Please provision iot for a mobile user,IoT,train
+M0602,My application needs massive iot for a connected device,mMTC,train
+M0239,Please provision phone call for a customer application,Voice,train
+M0312,Request support for sensor data as a priority service,IoT,train
+M0572,Enable ultra reliable low latency for a new session,URLLC,train
+M0621,"I would like to use ultra-reliable low-latency communication, bandwidth 20Mbps",URLLC,test
+M0093,"My application needs video streaming for a new session, bandwidth 30Mbps",Video,train
+M0147,Enable mmtc in the cellular network,mMTC,train
+M0673,"Request support for voip for a connected device, latency 50ms, bandwidth 5Mbps",Voice,train
+M0012,"Allocate resources for ultra reliable low latency for a mobile user, critical priority",URLLC,train
+M0307,"Set up high throughput broadband for a new session, latency 20ms",eMBB,train
+M0915,Request support for ultra-reliable low-latency communication for a new session,URLLC,train
+M0057,"Request support for voice call for the factory network, bandwidth 10Mbps",Voice,train
+M0010,"Configure service for emergency communication for a new session, latency 20ms",Emergency,train
+M0575,Create a network intent for voice call for the factory network,Voice,train
+M0491,Set up phone call for a mobile user,Voice,test
+M0813,"My application needs voice service for a new session, bandwidth 40Mbps",Voice,train
+M0148,"Enable phone call for the factory network, latency 100ms",Voice,train
+M0179,I need iot,IoT,train
+M0868,"Enable massive iot in the cellular network, latency 20ms",mMTC,train
+M0682,"I would like to use mission critical push to talk for a mobile user, latency 10ms",Emergency,train
+M0542,Enable emergency communication for a new session,Emergency,train
+M0428,Set up conversation in the cellular network,Voice,train
+M0453,"Configure service for low latency critical during peak load, bandwidth 30Mbps",URLLC,train
+M0936,"Create a network intent for ultra reliable low latency in the cellular network, critical priority",URLLC,test
+M0514,"My application needs emergency in the cellular network, latency 10ms",Emergency,train
+M0565,"Enable ultra reliable low latency for a connected device, latency 10ms, bandwidth 20Mbps",URLLC,train
+M0524,I would like to use embb in the cellular network,eMBB,train
+M0586,"Configure service for ultra reliable low latency during peak load, latency 250ms",URLLC,test
+M0240,Configure service for video streaming for a mobile user,Video,train
+M0011,Enable sensor data for a mobile user,IoT,test
+M0051,I would like to use video call for the factory network,Video,test
+M0570,Please provision first responder during peak load,Emergency,train
+M0932,My application needs phone call,Voice,train
+M0659,Configure service for voice service for a connected device,Voice,train
+M0739,"Please provision machine telemetry for a customer application, latency 80ms",IoT,train
+M0280,"My application needs massive sensors, latency 80ms",mMTC,train
+M0407,Set up voice service for the factory network,Voice,train
+M0743,Configure service for voice service in the cellular network,Voice,train
+M0004,"Configure service for sensor data for a customer application, latency 100ms",IoT,train
+M0479,My application needs critical push to talk during peak load,Emergency,train
+M0442,"I would like to use phone call in the cellular network, latency 50ms",Voice,train
+M0171,I would like to use mcptt as a priority service,Emergency,test
+M0401,"Please provision stream video, bandwidth 40Mbps",Video,test
+M0156,I would like to use streaming for a connected device,Video,test
+M0196,"Enable massive machine type communication for a mobile user, latency 50ms",mMTC,test
+M0637,"Configure service for mmtc for a mobile user, latency 100ms, bandwidth 20Mbps",mMTC,train
+M0278,I would like to use ultra reliable low latency with reliable delivery,URLLC,train
+M0227,My application needs emergency for a customer application,Emergency,train
+M0985,"Configure service for urllc for a mobile user, latency 20ms, bandwidth 20Mbps",URLLC,train
+M0488,I need ultra-reliable low-latency communication for a customer application,URLLC,train
+M0824,I would like to use urllc for a customer application,URLLC,train
+M0508,"Create a network intent for internet of things with reliable delivery, latency 20ms",IoT,train
+M0185,"I need critical push to talk as a priority service, bandwidth 30Mbps",Emergency,train
+M0173,"Request support for ultra reliable low latency as a priority service, bandwidth 5Mbps",URLLC,train
+M0254,"Enable video call with reliable delivery, critical priority",Video,train
+M0797,"Allocate resources for enhanced mobile broadband with reliable delivery, bandwidth 5Mbps",eMBB,train
+M0821,"Configure service for video call for the factory network, bandwidth 5Mbps",Video,test
+M0935,Please provision sensor telemetry for a mobile user,IoT,train
+M0301,"I would like to use massive machine type communication for the factory network, latency 100ms, bandwidth 30Mbps",mMTC,test
+M0784,"Create a network intent for mmtc, latency 10ms",mMTC,train
+M0929,"Allocate resources for ultra reliable low latency as a priority service, bandwidth 10Mbps",URLLC,train
+M0472,"Allocate resources for first responder for a connected device, latency 20ms",Emergency,train
+M0822,I would like to use emergency communication as a priority service,Emergency,train
+M0343,"Configure service for massive machine type communication for a connected device, latency 100ms",mMTC,train
+M0949,"Enable machine telemetry for a connected device, latency 250ms, bandwidth 5Mbps",IoT,train
+M0135,I need video conference in the cellular network,Video,train
+M0807,My application needs streaming with reliable delivery,Video,train
+M0903,"I would like to use massive sensors for a new session, critical priority",mMTC,train
+M0232,"Configure service for conversation for a connected device, latency 80ms, critical priority",Voice,train
+M0762,I need enhanced mobile broadband,eMBB,train
+M0577,"Request support for emergency for the factory network, latency 20ms, bandwidth 5Mbps",Emergency,train
+M0414,Enable voip as a priority service,Voice,train
+M0431,Allocate resources for iot as a priority service,IoT,test
+M0286,"I need enhanced mobile broadband for the factory network, latency 10ms",eMBB,test
+M0452,"Request support for machine telemetry for a new session, critical priority",IoT,train
+M0776,Set up embb during peak load,eMBB,test
+M0604,"Allocate resources for stream video for a new session, latency 100ms",Video,train
+M0263,Request support for internet of things in the cellular network,IoT,train
+M0987,My application needs massive machine type communication for a customer application,mMTC,train
+M0236,My application needs urllc for a new session,URLLC,test
+M0551,"Set up ultra-reliable low-latency communication for a mobile user, critical priority",URLLC,test
+M0908,Set up ultra reliable low latency for a customer application,URLLC,train
+M0377,"Create a network intent for embb as a priority service, bandwidth 5Mbps",eMBB,train
+M0703,"Allocate resources for mcptt for a customer application, latency 100ms",Emergency,train
+M0375,"I need internet of things, critical priority",IoT,train
+M0829,"My application needs critical push to talk during peak load, latency 50ms, bandwidth 10Mbps",Emergency,train
+M0683,"Request support for machine telemetry as a priority service, critical priority",IoT,train
+M0358,"Request support for voice service in the cellular network, latency 50ms",Voice,train
+M0796,"I would like to use ultra-reliable low-latency communication during peak load, latency 100ms",URLLC,test
+M0523,"Set up ultra-reliable low-latency communication for the factory network, latency 20ms",URLLC,train
+M0729,"Allocate resources for voice call during peak load, bandwidth 20Mbps",Voice,train
+M0833,"Request support for massive iot for a connected device, bandwidth 5Mbps",mMTC,train
+M0067,"My application needs internet of things for a customer application, latency 50ms, critical priority",IoT,train
+M0556,"Please provision emergency communication for a mobile user, latency 80ms",Emergency,test
+M0077,"I would like to use mmtc during peak load, bandwidth 80Mbps",mMTC,train
+M0031,"Configure service for emergency communication as a priority service, latency 50ms",Emergency,test
+M0560,Allocate resources for massive machine type communication during peak load,mMTC,train
+M0549,"Enable emergency communication for a new session, bandwidth 10Mbps",Emergency,train
+M0118,"I would like to use enhanced mobile broadband in the cellular network, latency 20ms",eMBB,train
+M0914,"Configure service for sensor data during peak load, critical priority",IoT,train
+M0539,Request support for mmtc in the cellular network,mMTC,train
+M0995,I need conversation during peak load,Voice,train
+M0552,Set up high throughput broadband during peak load,eMBB,train
+M0336,Please provision mmtc in the cellular network,mMTC,test
+M0859,"Please provision ultra reliable low latency for a connected device, latency 10ms, critical priority",URLLC,train
+M0078,"Configure service for voip, critical priority",Voice,train
+M0614,Enable urllc,URLLC,train
+M0853,"I would like to use mobile broadband, latency 250ms, bandwidth 40Mbps",eMBB,train
+M0193,"Enable sensor telemetry, latency 10ms, bandwidth 5Mbps",IoT,train
+M0702,Please provision video conference for a connected device,Video,train
+M0385,"Enable massive machine type communication with reliable delivery, latency 20ms, bandwidth 80Mbps",mMTC,train
+M0979,"Request support for high throughput broadband during peak load, latency 10ms",eMBB,train
+M0145,"My application needs ultra-reliable low-latency communication as a priority service, latency 250ms, bandwidth 40Mbps",URLLC,train
+M0086,Configure service for streaming,Video,test
+M0624,Please provision voip for a customer application,Voice,train
+M0686,I would like to use massive iot during peak load,mMTC,test
+M0054,Please provision low latency critical for the factory network,URLLC,train
+M0886,"Create a network intent for internet of things as a priority service, latency 80ms",IoT,test
+M0948,Please provision critical push to talk with reliable delivery,Emergency,train
+M0448,"I would like to use mmtc for a connected device, latency 100ms",mMTC,train
+M0804,"I need embb in the cellular network, critical priority",eMBB,train
+M0656,Set up ultra reliable low latency for a customer application,URLLC,test
+M0102,Create a network intent for internet of things for a connected device,IoT,train
+M0223,"Enable mobile broadband for a mobile user, latency 10ms",eMBB,train
+M0083,Allocate resources for enhanced mobile broadband as a priority service,eMBB,train
+M0841,"Allocate resources for conversation during peak load, latency 10ms, bandwidth 2Mbps",Voice,test
+M0509,"Set up ultra-reliable low-latency communication for a connected device, bandwidth 30Mbps",URLLC,train
+M0053,"Configure service for internet of things in the cellular network, bandwidth 80Mbps",IoT,train
+M0731,Configure service for mission critical push to talk,Emergency,test
+M0788,Please provision sensor telemetry with reliable delivery,IoT,train
+M0512,Set up voice call for a customer application,Voice,train
+M0845,"My application needs ultra-reliable low-latency communication with reliable delivery, bandwidth 30Mbps",URLLC,train
+M0087,I would like to use mission critical push to talk,Emergency,train
+M0506,Request support for video call for the factory network,Video,test
+M0333,"Enable sensor data during peak load, bandwidth 30Mbps",IoT,train
+M0495,Configure service for urllc for the factory network,URLLC,train
+M0394,"My application needs video streaming for a connected device, latency 50ms",Video,train
+M0443,Configure service for streaming in the cellular network,Video,train
+M0252,I need massive sensors for the factory network,mMTC,train
+M0024,Enable mission critical push to talk in the cellular network,Emergency,train
+M0464,Enable video streaming for a customer application,Video,train
+M0111,"I need enhanced mobile broadband with reliable delivery, critical priority",eMBB,test
+M0018,Set up sensor telemetry for a new session,IoT,train
+M0114,I would like to use streaming for a new session,Video,train
+M0027,My application needs high throughput broadband with reliable delivery,eMBB,train
+M0839,Request support for embb during peak load,eMBB,train
+M0613,"Configure service for iot with reliable delivery, latency 100ms, bandwidth 20Mbps",IoT,train
+M0021,"My application needs massive sensors for a new session, bandwidth 2Mbps",mMTC,test
+M0591,I would like to use emergency communication,Emergency,test
+M0416,Allocate resources for emergency,Emergency,test
+M0360,My application needs emergency communication,Emergency,train
+M0127,"I need voice call in the cellular network, latency 80ms",Voice,train
+M0993,"I need high throughput broadband for a connected device, bandwidth 20Mbps",eMBB,train
+M0247,"I need video call, latency 10ms",Video,train
+M0848,"Enable phone call during peak load, critical priority",Voice,train
+M0741,"I need embb in the cellular network, bandwidth 40Mbps",eMBB,test
+M0103,"Create a network intent for low latency critical for a mobile user, latency 80ms",URLLC,train
+M0187,"Allocate resources for low latency critical for the factory network, latency 100ms",URLLC,train
+M0906,Enable emergency with reliable delivery,Emergency,test
+M0378,Set up massive sensors,mMTC,train
+M0504,Enable massive sensors for a connected device,mMTC,train
+M0933,"Set up stream video for a new session, bandwidth 20Mbps",Video,train
+M0877,"Please provision video conference as a priority service, latency 20ms, bandwidth 20Mbps",Video,train
+M0569,"Configure service for video streaming for a customer application, bandwidth 5Mbps",Video,train
+M0944,I would like to use embb during peak load,eMBB,train
+M0970,"Create a network intent for machine telemetry for a new session, latency 100ms",IoT,train
+M0371,Enable massive iot with reliable delivery,mMTC,test
+M0259,"Configure service for massive sensors as a priority service, latency 50ms",mMTC,train
+M0310,"My application needs video conference for a new session, latency 250ms",Video,train
+M0923,Allocate resources for embb for a connected device,eMBB,train
+M0533,"Please provision phone call as a priority service, bandwidth 30Mbps",Voice,train
+M0142,"My application needs video call in the cellular network, latency 20ms",Video,train
+M0217,"Please provision massive iot for a connected device, latency 250ms, bandwidth 30Mbps",mMTC,train
+M0546,Please provision massive machine type communication for a connected device,mMTC,test
+M0823,"Create a network intent for internet of things for a connected device, latency 250ms",IoT,train
+M0938,Request support for massive machine type communication for a mobile user,mMTC,train
+M0272,Create a network intent for mobile broadband for a new session,eMBB,train
+M0854,Enable massive machine type communication as a priority service,mMTC,train
+M0625,"Enable streaming for a mobile user, latency 10ms, bandwidth 40Mbps",Video,train
+M0234,Set up emergency communication in the cellular network,Emergency,train
+M0459,I need sensor data for a connected device,IoT,train
+M0561,"I would like to use phone call for a mobile user, bandwidth 2Mbps",Voice,test
+M0081,"My application needs internet of things, bandwidth 80Mbps",IoT,test
+M0275,Configure service for video conference for a customer application,Video,train
+M0341,"Allocate resources for ultra-reliable low-latency communication, bandwidth 20Mbps",URLLC,test
+M0881,"Please provision high throughput broadband for the factory network, bandwidth 30Mbps, critical priority",eMBB,test
+M0581,"I would like to use massive machine type communication during peak load, bandwidth 30Mbps",mMTC,test
+M0770,Create a network intent for mmtc as a priority service,mMTC,train
+M0975,My application needs video conference for a mobile user,Video,train
+M0096,Create a network intent for urllc during peak load,URLLC,test
+M0536,Request support for sensor telemetry during peak load,IoT,test
+M0338,Enable streaming for the factory network,Video,train
+M0485,"Configure service for stream video in the cellular network, bandwidth 80Mbps, critical priority",Video,train
+M0553,"Set up massive iot for a new session, latency 80ms, bandwidth 30Mbps",mMTC,train
+M0059,My application needs first responder for a customer application,Emergency,train
+M0547,"I need conversation for a customer application, latency 20ms",Voice,train
+M0728,My application needs mmtc during peak load,mMTC,train
+M0892,"Enable emergency for a customer application, latency 20ms, critical priority",Emergency,train
+M0241,"Configure service for emergency with reliable delivery, latency 10ms, bandwidth 30Mbps",Emergency,test
+M0937,"Enable enhanced mobile broadband for a mobile user, latency 10ms, bandwidth 80Mbps",eMBB,train
+M0146,My application needs embb for a mobile user,eMBB,test
+M0516,Create a network intent for ultra reliable low latency for a mobile user,URLLC,test
+M0413,"Create a network intent for mmtc for a customer application, bandwidth 20Mbps",mMTC,train
+M0277,"I need sensor data for a new session, latency 100ms, bandwidth 80Mbps",IoT,train
+M0860,Set up high throughput broadband with reliable delivery,eMBB,train
+M0698,Request support for ultra reliable low latency with reliable delivery,URLLC,train
+M0330,Create a network intent for voice call for a mobile user,Voice,train
+M0016,"Configure service for streaming, latency 100ms",Video,test
+M0691,"Request support for ultra reliable low latency during peak load, latency 20ms",URLLC,test
+M0531,Set up embb in the cellular network,eMBB,test
+M0168,I need massive sensors as a priority service,mMTC,train
+M0446,Configure service for urllc during peak load,URLLC,test
+M0075,I would like to use low latency critical for a customer application,URLLC,train
+M0080,Create a network intent for emergency during peak load,Emergency,train
+M0934,"Create a network intent for emergency for a new session, latency 20ms",Emergency,train
+M0671,Allocate resources for mobile broadband as a priority service,eMBB,test
+M0982,"I need streaming for a connected device, latency 80ms",Video,train
+M0907,"Set up iot for a new session, latency 50ms",IoT,train
+M0084,Enable mmtc for a customer application,mMTC,train
+M0584,"Allocate resources for first responder, critical priority",Emergency,train
+M0262,"Set up emergency communication for a customer application, latency 50ms",Emergency,train
+M0480,Enable sensor telemetry,IoT,train
+M0376,"Enable ultra reliable low latency for the factory network, latency 20ms",URLLC,test
+M0197,"I need phone call for a customer application, bandwidth 80Mbps",Voice,train
+M0246,Create a network intent for voice call for a mobile user,Voice,test
+M0182,Enable massive machine type communication for a mobile user,mMTC,train
+M0519,Create a network intent for voice call for a mobile user,Voice,train
+M0648,Request support for sensor data,IoT,train
+M0978,My application needs ultra-reliable low-latency communication in the cellular network,URLLC,train
+M0340,"Request support for machine telemetry for a connected device, latency 20ms",IoT,train
+M0863,Please provision video streaming for a mobile user,Video,train
+M0844,"Request support for machine telemetry for a connected device, latency 250ms",IoT,train
+M0460,"Enable low latency critical for a connected device, latency 50ms",URLLC,train
+M0364,"Set up massive machine type communication for a customer application, latency 50ms, critical priority",mMTC,train
+M0138,Please provision ultra-reliable low-latency communication for a new session,URLLC,train
+M0676,"Request support for sensor telemetry for the factory network, latency 250ms",IoT,test
+M0726,Request support for ultra reliable low latency for a new session,URLLC,test
+M0328,"Request support for enhanced mobile broadband during peak load, latency 50ms",eMBB,train
+M0911,Create a network intent for phone call for the factory network,Voice,test
+M0883,"Set up voice call, latency 50ms",Voice,train
+M0660,I need video conference for a mobile user,Video,train
+M0088,"Set up sensor telemetry, latency 20ms",IoT,train
+M0116,I would like to use internet of things for a mobile user,IoT,test
+M0550,"Please provision sensor telemetry with reliable delivery, latency 50ms",IoT,train
+M0163,"Create a network intent for video call with reliable delivery, latency 10ms",Video,train
+M0836,I would like to use emergency for the factory network,Emergency,test
+M0630,Request support for mmtc with reliable delivery,mMTC,train
+M0810,Enable urllc for a customer application,URLLC,train
+M0390,My application needs low latency critical for a mobile user,URLLC,train
+M0070,"Configure service for massive sensors for a new session, latency 250ms",mMTC,train
+M0811,"Allocate resources for enhanced mobile broadband for a connected device, latency 250ms",eMBB,test
+M0035,Configure service for massive iot for a mobile user,mMTC,train
+M0737,"Allocate resources for video streaming for a customer application, bandwidth 40Mbps",Video,train
+M0006,Configure service for enhanced mobile broadband for the factory network,eMBB,test
+M0872,Configure service for machine telemetry for a new session,IoT,train
+M0249,"Please provision internet of things for a new session, bandwidth 80Mbps",IoT,train
+M0994,"I would like to use massive sensors during peak load, latency 20ms",mMTC,train
+M0939,I need phone call for a customer application,Voice,train
+M0790,"I would like to use embb as a priority service, latency 20ms",eMBB,train
+M0383,Enable ultra-reliable low-latency communication for the factory network,URLLC,train
+M0816,Configure service for internet of things for the factory network,IoT,test
+M0803,My application needs low latency critical as a priority service,URLLC,train
+M0794,Request support for emergency during peak load,Emergency,train
+M0755,I need high throughput broadband for a connected device,eMBB,train
+M0896,Create a network intent for mmtc in the cellular network,mMTC,test
+M0781,"Request support for machine telemetry for a customer application, latency 10ms, bandwidth 10Mbps",IoT,test
+M0792,Create a network intent for phone call for the factory network,Voice,train
+M0664,"I would like to use embb as a priority service, latency 250ms",eMBB,train
+M0188,"I need enhanced mobile broadband for the factory network, critical priority",eMBB,train
+M0647,Enable emergency in the cellular network,Emergency,train
+M0276,"My application needs mission critical push to talk for a connected device, critical priority",Emergency,test
+M0150,My application needs mcptt for the factory network,Emergency,train
+M0840,I would like to use mmtc in the cellular network,mMTC,train
+M0043,"My application needs phone call for a customer application, latency 80ms",Voice,train
+M0525,"Please provision massive iot during peak load, bandwidth 30Mbps",mMTC,train
+M0694,"Configure service for voice call for a connected device, latency 20ms, critical priority",Voice,train
+M0636,Create a network intent for mobile broadband during peak load,eMBB,test
+M0028,"I would like to use mmtc as a priority service, latency 10ms",mMTC,train
+M0069,"I would like to use high throughput broadband in the cellular network, bandwidth 10Mbps",eMBB,train
+M0707,Allocate resources for massive machine type communication for the factory network,mMTC,train
+M0678,My application needs embb in the cellular network,eMBB,train
+M0964,"I would like to use ultra reliable low latency as a priority service, latency 10ms",URLLC,train
+M0181,"My application needs enhanced mobile broadband as a priority service, latency 10ms, bandwidth 30Mbps",eMBB,test
+M0672,"Create a network intent for massive machine type communication during peak load, critical priority",mMTC,train
+M0283,"Set up first responder for a connected device, latency 10ms",Emergency,train
+M0489,"Allocate resources for enhanced mobile broadband for a mobile user, bandwidth 10Mbps",eMBB,train
+M0510,Create a network intent for embb,eMBB,train
+M0763,"Allocate resources for massive iot for a new session, latency 20ms",mMTC,train
+M0408,"Allocate resources for streaming for a connected device, critical priority",Video,train
+M0849,"Enable streaming during peak load, bandwidth 40Mbps",Video,train
+M0953,"Please provision phone call during peak load, bandwidth 40Mbps",Voice,train
+M0832,"I would like to use high throughput broadband during peak load, latency 20ms",eMBB,train
+M0389,"My application needs machine telemetry in the cellular network, bandwidth 5Mbps",IoT,train
+M0391,"I would like to use high throughput broadband for a mobile user, latency 20ms",eMBB,test
+M0899,I would like to use mcptt during peak load,Emergency,train
+M0920,Create a network intent for mcptt,Emergency,train
+M0898,"Allocate resources for video streaming during peak load, latency 50ms",Video,train
+M0133,"I need massive iot as a priority service, latency 100ms, bandwidth 30Mbps, critical priority",mMTC,train
+M0115,"I would like to use mcptt for a new session, latency 100ms",Emergency,train
+M0003,Please provision critical push to talk,Emergency,train
+M0922,"Please provision ultra-reliable low-latency communication as a priority service, latency 50ms",URLLC,train
+M0580,"Create a network intent for embb for a mobile user, latency 80ms",eMBB,train
+M0842,Set up video streaming for a customer application,Video,train
+M0798,My application needs massive sensors with reliable delivery,mMTC,train
+M0869,"Configure service for voice call during peak load, bandwidth 5Mbps",Voice,train
+M0200,Allocate resources for sensor data for a customer application,IoT,train
+M0529,"Configure service for machine telemetry, latency 100ms, bandwidth 80Mbps, critical priority",IoT,train
+M0802,"Set up sensor data for a new session, latency 20ms",IoT,train
+M0424,"Allocate resources for iot with reliable delivery, latency 80ms",IoT,train
+M0396,Configure service for machine telemetry for a mobile user,IoT,test
+M0380,Enable stream video,Video,train
+M0623,Configure service for massive machine type communication during peak load,mMTC,train
+M0843,Request support for emergency communication as a priority service,Emergency,train
+M0891,I need stream video for a connected device,Video,test
+M0747,Enable ultra reliable low latency for a mobile user,URLLC,train
+M0243,"My application needs urllc during peak load, critical priority",URLLC,train
+M0311,Create a network intent for mission critical push to talk with reliable delivery,Emergency,test
+M0170,Please provision video call during peak load,Video,train
+M0395,I need emergency for a customer application,Emergency,train
+M0834,Set up voice call for a mobile user,Voice,train
+M0014,Allocate resources for massive iot with reliable delivery,mMTC,train
+M0738,"Create a network intent for critical push to talk with reliable delivery, critical priority",Emergency,train
+M0727,"Set up embb for a mobile user, latency 10ms, critical priority",eMBB,train
+M0618,Please provision streaming during peak load,Video,train
+M0052,"Enable emergency communication for a customer application, latency 100ms",Emergency,train
+M0106,"I would like to use phone call for a customer application, latency 80ms",Voice,test
+M0141,"Set up voice call, bandwidth 80Mbps",Voice,test
+M0476,Enable massive iot for a new session,mMTC,test
+M0885,"Set up emergency, bandwidth 5Mbps",Emergency,train
+M0140,I need massive sensors for a customer application,mMTC,train
+M0631,"Allocate resources for conversation as a priority service, latency 250ms",Voice,test
+M0902,I would like to use enhanced mobile broadband with reliable delivery,eMBB,train
+M0629,"Allocate resources for high throughput broadband for a new session, bandwidth 2Mbps",eMBB,train
+M0397,"Request support for urllc for a customer application, latency 100ms, bandwidth 80Mbps, critical priority",URLLC,train
+M0858,Create a network intent for sensor telemetry,IoT,train
+M0919,"Create a network intent for video streaming in the cellular network, latency 20ms",Video,train
+M0260,Please provision voice call for a customer application,Voice,train
+M0007,"Set up massive machine type communication as a priority service, latency 100ms",mMTC,train
+M0454,"Configure service for embb for a mobile user, latency 250ms",eMBB,train
+M0665,"Please provision massive machine type communication in the cellular network, bandwidth 20Mbps",mMTC,train
+M0723,I would like to use video conference for the factory network,Video,train
+M0199,"Enable emergency for the factory network, latency 100ms, critical priority",Emergency,train
+M0469,"My application needs massive iot for a mobile user, latency 80ms, bandwidth 10Mbps",mMTC,train
+M0827,My application needs conversation for a new session,Voice,train
+M0169,"My application needs conversation in the cellular network, latency 80ms, bandwidth 2Mbps",Voice,train
+M0916,"Allocate resources for embb with reliable delivery, latency 20ms",eMBB,test
+M0403,"I would like to use sensor telemetry in the cellular network, latency 100ms",IoT,train
+M0651,Request support for mmtc for a mobile user,mMTC,test
+M0775,"My application needs urllc for the factory network, latency 80ms",URLLC,train
+M0957,"I would like to use low latency critical for a mobile user, bandwidth 30Mbps",URLLC,train
+M0805,"My application needs mmtc for the factory network, latency 10ms, bandwidth 40Mbps",mMTC,train
+M0224,Set up mmtc as a priority service,mMTC,train
+M0558,Request support for urllc with reliable delivery,URLLC,train
+M0880,"Create a network intent for ultra-reliable low-latency communication for a connected device, latency 20ms",URLLC,train
+M0432,I would like to use low latency critical,URLLC,train
+M0681,"Create a network intent for video conference during peak load, bandwidth 2Mbps",Video,test
+M0449,"Set up conversation for a mobile user, bandwidth 80Mbps",Voice,train
+M0680,Set up voip for a connected device,Voice,train
+M0209,"I would like to use high throughput broadband for the factory network, bandwidth 30Mbps",eMBB,train
+M0742,"I would like to use massive sensors in the cellular network, latency 250ms",mMTC,train
+M0023,"Configure service for video streaming for a customer application, critical priority",Video,train
+M0838,"Create a network intent for ultra reliable low latency with reliable delivery, latency 10ms",URLLC,train
+M0874,"Set up mobile broadband for a new session, latency 80ms",eMBB,train
+M0769,"My application needs mobile broadband with reliable delivery, latency 80ms, bandwidth 5Mbps",eMBB,train
+M0483,Set up mmtc for a connected device,mMTC,train
+M0632,I need video call for a connected device,Video,train
+M0700,"Enable mmtc during peak load, latency 80ms",mMTC,train
+M0968,I need video streaming for a connected device,Video,train
+M0404,Please provision ultra-reliable low-latency communication,URLLC,train
+M0058,"My application needs stream video for a customer application, latency 10ms",Video,train
+M0253,"Request support for conversation for a connected device, latency 80ms, bandwidth 5Mbps",Voice,train
+M0960,My application needs voice call for the factory network,Voice,train
+M0073,"Create a network intent for mcptt for a customer application, latency 250ms, bandwidth 2Mbps",Emergency,train
+M0735,Create a network intent for mmtc in the cellular network,mMTC,train
+M0229,"Please provision ultra reliable low latency for the factory network, latency 100ms, bandwidth 5Mbps",URLLC,train
+M0857,"Allocate resources for mission critical push to talk for the factory network, bandwidth 5Mbps",Emergency,train
+M0745,"Enable critical push to talk for a mobile user, latency 100ms, bandwidth 80Mbps",Emergency,train
+M0097,"Create a network intent for enhanced mobile broadband for a new session, latency 20ms, bandwidth 2Mbps",eMBB,train
+M0696,I would like to use mcptt for a customer application,Emergency,test
+M0983,Request support for first responder with reliable delivery,Emergency,train
+M0095,My application needs sensor data for a connected device,IoT,train
+M0640,"I would like to use first responder for a mobile user, latency 50ms",Emergency,train
+M0281,"Please provision voice call for a connected device, bandwidth 10Mbps",Voice,test
+M1000,"Allocate resources for mobile broadband for a mobile user, latency 100ms",eMBB,train
+M0748,"Configure service for high throughput broadband for a customer application, latency 250ms",eMBB,train
+M0304,"Create a network intent for mcptt for a new session, latency 50ms",Emergency,train
+M0548,Request support for video conference for the factory network,Video,train
+M0545,"My application needs embb for a customer application, bandwidth 10Mbps",eMBB,train
+M0653,"Please provision stream video, bandwidth 80Mbps",Video,train
+M0049,"Enable massive iot as a priority service, latency 80ms, bandwidth 10Mbps",mMTC,train
+M0494,I need sensor telemetry for a new session,IoT,train
+M0157,"I need mcptt with reliable delivery, latency 100ms, bandwidth 40Mbps",Emergency,train
+M0230,Please provision enhanced mobile broadband in the cellular network,eMBB,train
+M0921,"Create a network intent for iot in the cellular network, bandwidth 10Mbps",IoT,test
+M0582,I need phone call for a mobile user,Voice,train
+M0751,"Create a network intent for streaming as a priority service, latency 250ms",Video,test
+M0123,I would like to use sensor data with reliable delivery,IoT,train
+M0704,Configure service for iot,IoT,train
+M0184,"Allocate resources for stream video for a customer application, latency 80ms",Video,train
+M0945,"Configure service for massive sensors as a priority service, bandwidth 2Mbps",mMTC,train
+M0537,"I need low latency critical with reliable delivery, bandwidth 5Mbps",URLLC,train
+M0219,Enable stream video in the cellular network,Video,train
+M0852,Configure service for ultra reliable low latency for a customer application,URLLC,train
+M0617,"Enable voice service for the factory network, bandwidth 40Mbps, critical priority",Voice,train
+M0314,I need mobile broadband as a priority service,eMBB,train
+M0695,Configure service for video conference with reliable delivery,Video,train
+M0947,"Enable video streaming, critical priority",Video,train
+M0299,Create a network intent for urllc for a connected device,URLLC,train
+M0714,Allocate resources for massive iot,mMTC,train
+M0484,"I need voip as a priority service, latency 80ms",Voice,train
+M0393,"Set up voice call for a new session, bandwidth 40Mbps",Voice,train
+M0152,Create a network intent for low latency critical for a connected device,URLLC,train
+M0162,I would like to use voice call for a mobile user,Voice,train
+M0977,"My application needs internet of things during peak load, bandwidth 10Mbps",IoT,train
+M0355,"Create a network intent for ultra reliable low latency in the cellular network, latency 10ms",URLLC,train
+M0319,"I need sensor data, latency 20ms",IoT,train
+M0092,Set up conversation as a priority service,Voice,train
+M0628,"Please provision ultra-reliable low-latency communication, latency 20ms, critical priority",URLLC,train
+M0888,Enable high throughput broadband,eMBB,train
+M0015,Please provision voice service for a mobile user,Voice,train
+M0566,Allocate resources for high throughput broadband for a connected device,eMBB,test
+M0359,I would like to use stream video for the factory network,Video,train
+M0326,Allocate resources for machine telemetry as a priority service,IoT,test
+M0499,"Configure service for streaming in the cellular network, latency 250ms",Video,train
+M0025,"Request support for internet of things for the factory network, latency 100ms, bandwidth 20Mbps",IoT,train
+M0291,Enable machine telemetry in the cellular network,IoT,test
+M0228,My application needs iot with reliable delivery,IoT,train
+M0639,"Request support for streaming, critical priority",Video,train
+M0436,"Request support for streaming for a mobile user, latency 100ms",Video,test
+M0876,Please provision voip for a new session,Voice,test
+M0541,"Configure service for video call during peak load, latency 10ms, bandwidth 40Mbps",Video,test
+M0126,I would like to use mmtc as a priority service,mMTC,test
+M0361,"Please provision sensor data for a mobile user, latency 50ms, bandwidth 20Mbps",IoT,test
+M0799,"I would like to use phone call for a new session, latency 250ms",Voice,train
+M0251,Please provision embb for a connected device,eMBB,test
+M0674,Create a network intent for video streaming for the factory network,Video,train
+M0758,My application needs video call for the factory network,Video,train
+M0830,Create a network intent for sensor telemetry for a customer application,IoT,train
+M0850,"Allocate resources for mcptt as a priority service, latency 100ms",Emergency,train
+M0635,I need low latency critical,URLLC,train
+M0722,I would like to use voice service as a priority service,Voice,train
+M0900,I would like to use internet of things in the cellular network,IoT,train
+M0124,"I need urllc for a new session, latency 50ms",URLLC,train
+M0589,"I need voice service for a new session, latency 250ms, bandwidth 20Mbps",Voice,train
+M0379,"My application needs voice service, latency 20ms",Voice,train
+M0155,"I need phone call for a mobile user, critical priority",Voice,train
+M0588,I would like to use mmtc for a customer application,mMTC,train
+M0989,"I need stream video for a mobile user, bandwidth 40Mbps",Video,train
+M0862,"I would like to use conversation for the factory network, latency 50ms",Voice,train
+M0222,My application needs urllc for a mobile user,URLLC,train
+M0662,I would like to use sensor data as a priority service,IoT,train
+M0522,Please provision internet of things for the factory network,IoT,train
+M0685,"Create a network intent for enhanced mobile broadband, latency 100ms, bandwidth 40Mbps",eMBB,train
+M0288,Request support for voice service for the factory network,Voice,train
+M0761,"My application needs low latency critical in the cellular network, bandwidth 20Mbps",URLLC,test
+M0398,I need high throughput broadband for the factory network,eMBB,train
+M0620,I would like to use internet of things in the cellular network,IoT,train
+M0587,I need high throughput broadband for a connected device,eMBB,train
+M0812,I would like to use massive machine type communication for the factory network,mMTC,train
+M0218,Allocate resources for voip for a connected device,Voice,train
+M0030,Please provision video conference for a connected device,Video,train
+M0996,I would like to use video call,Video,test
+M0768,I would like to use urllc in the cellular network,URLLC,train
+M0716,"Allocate resources for video conference during peak load, critical priority",Video,test
+M0766,"Please provision mission critical push to talk for the factory network, latency 20ms",Emergency,test
+M0372,I need voice call for a new session,Voice,train
+M0772,"Configure service for video streaming with reliable delivery, latency 80ms",Video,train
+M0966,My application needs massive machine type communication for the factory network,mMTC,test
+M0778,"Configure service for voip for a customer application, latency 20ms",Voice,train
+M0302,Request support for voice call during peak load,Voice,train
+M0501,"Please provision sensor data during peak load, bandwidth 2Mbps",IoT,test
+M0520,"My application needs video conference for the factory network, latency 100ms",Video,train
+M0245,"I would like to use mmtc for a customer application, bandwidth 40Mbps",mMTC,train
+M0779,Configure service for video conference during peak load,Video,train
+M0568,"Configure service for voice call, latency 80ms",Voice,train
+M0535,"My application needs mcptt as a priority service, latency 20ms",Emergency,train
+M0576,Configure service for stream video for a connected device,Video,test
+M0706,"Configure service for high throughput broadband during peak load, latency 10ms",eMBB,test
+M0668,Set up first responder with reliable delivery,Emergency,train
+M0439,"My application needs ultra reliable low latency as a priority service, latency 80ms",URLLC,train
+M0226,"Enable stream video for a new session, latency 20ms",Video,test
+M0780,I need mcptt with reliable delivery,Emergency,train
+M0178,"Configure service for mission critical push to talk for a new session, latency 20ms",Emergency,train
+M0349,"I would like to use embb in the cellular network, latency 80ms, bandwidth 10Mbps",eMBB,train
+M0616,"I would like to use mmtc for a customer application, latency 10ms",mMTC,test
+M0045,"My application needs critical push to talk during peak load, bandwidth 5Mbps, critical priority",Emergency,train
+M0688,"Set up streaming for a connected device, latency 100ms",Video,train
+M0061,"Configure service for ultra-reliable low-latency communication for a mobile user, latency 10ms, bandwidth 10Mbps",URLLC,test
+M0471,My application needs video conference,Video,test
+M0149,"Configure service for video streaming for a customer application, bandwidth 20Mbps",Video,train
+M0351,Please provision conversation for a connected device,Voice,test
+M0782,"I need low latency critical during peak load, critical priority",URLLC,train
+M0268,"Create a network intent for video conference during peak load, latency 250ms",Video,train
+M0419,"Enable embb for a customer application, critical priority",eMBB,train
+M0952,"I need mmtc for a connected device, latency 20ms",mMTC,train
+M0269,"Allocate resources for emergency for the factory network, bandwidth 2Mbps",Emergency,train
+M0297,"I would like to use mission critical push to talk, bandwidth 5Mbps",Emergency,train
+M0420,Request support for massive machine type communication,mMTC,train
+M0991,"Set up sensor data, latency 10ms, critical priority",IoT,test
+M0559,"Set up enhanced mobile broadband with reliable delivery, latency 250ms",eMBB,train
+M0532,"I would like to use massive machine type communication during peak load, latency 50ms",mMTC,train
+M0801,"Please provision mission critical push to talk, bandwidth 2Mbps",Emergency,test
+M0487,"Request support for iot with reliable delivery, latency 50ms",IoT,train
+M0837,"Create a network intent for sensor telemetry in the cellular network, bandwidth 80Mbps, critical priority",IoT,train
+M0571,"Please provision machine telemetry, latency 100ms",IoT,test
+M0795,Allocate resources for machine telemetry for a connected device,IoT,train
+M0256,"I would like to use iot as a priority service, latency 100ms",IoT,test
+M0167,Please provision mobile broadband in the cellular network,eMBB,train
+M0645,"Enable voice service, bandwidth 5Mbps",Voice,train
+M0201,"I would like to use low latency critical in the cellular network, bandwidth 40Mbps",URLLC,test
+M0757,"Set up conversation for a new session, latency 20ms, bandwidth 30Mbps",Voice,train
+M0663,I would like to use low latency critical for a connected device,URLLC,train
+M0160,"Create a network intent for high throughput broadband for a new session, latency 100ms",eMBB,train
+M0642,Enable urllc for a connected device,URLLC,train
+M0370,"I would like to use mobile broadband with reliable delivery, latency 10ms",eMBB,train
+M0511,"I would like to use massive sensors during peak load, latency 50ms",mMTC,test
+M0633,"Create a network intent for critical push to talk as a priority service, bandwidth 20Mbps",Emergency,train
+M0037,"My application needs video conference for a new session, latency 10ms, bandwidth 40Mbps",Video,train
+M0316,"I would like to use voice call during peak load, latency 100ms",Voice,test
+M0309,"I need voip for a customer application, bandwidth 10Mbps, critical priority",Voice,train
+M0477,"Please provision voip for a connected device, bandwidth 10Mbps",Voice,train
+M0783,Configure service for enhanced mobile broadband with reliable delivery,eMBB,train
+M0785,"My application needs phone call with reliable delivery, bandwidth 2Mbps",Voice,train
+M0008,Please provision phone call for the factory network,Voice,train
+M0972,Request support for enhanced mobile broadband with reliable delivery,eMBB,train
+M0107,My application needs video conference for a mobile user,Video,train
+M0244,"I need mobile broadband for a new session, latency 10ms",eMBB,train
+M0191,Configure service for video streaming in the cellular network,Video,test
+M0557,"Please provision sensor telemetry, bandwidth 2Mbps",IoT,train
+M0641,"I would like to use internet of things for the factory network, bandwidth 2Mbps",IoT,test
+M0981,"I need voip, bandwidth 20Mbps",Voice,test
+M0308,Please provision mmtc in the cellular network,mMTC,train
+M0205,"I would like to use video conference in the cellular network, latency 20ms, bandwidth 30Mbps",Video,train
+M0089,"I would like to use ultra reliable low latency for a customer application, bandwidth 30Mbps, critical priority",URLLC,train
+M0044,Create a network intent for video call for a customer application,Video,train
+M0347,Create a network intent for machine telemetry for a connected device,IoT,train
+M0132,My application needs enhanced mobile broadband,eMBB,train
+M0946,"Create a network intent for conversation for a new session, latency 20ms",Voice,test
+M0082,"Allocate resources for ultra reliable low latency, latency 250ms",URLLC,train
+M0186,Create a network intent for sensor telemetry for a mobile user,IoT,test
+M0835,"Configure service for video call during peak load, latency 80ms",Video,train
+M0736,"Enable voice call for a customer application, latency 10ms",Voice,test
+M0386,"Create a network intent for conversation for a new session, critical priority",Voice,test
+M0287,"Configure service for mmtc for a connected device, critical priority",mMTC,train
+M0271,"Create a network intent for urllc in the cellular network, latency 50ms",URLLC,test
+M0638,Set up voip for a customer application,Voice,train
+M0221,"Allocate resources for sensor data as a priority service, bandwidth 30Mbps, critical priority",IoT,test
+M0425,"My application needs ultra-reliable low-latency communication as a priority service, bandwidth 30Mbps",URLLC,train
+M0064,"Set up phone call as a priority service, latency 250ms",Voice,train
+M0065,"Set up video call for a customer application, bandwidth 30Mbps",Video,train
+M0610,"Allocate resources for conversation for a mobile user, latency 80ms",Voice,train
+M0110,I would like to use ultra-reliable low-latency communication,URLLC,train
+M0999,I need urllc for a mobile user,URLLC,train
+M0337,"Set up conversation with reliable delivery, latency 50ms, bandwidth 2Mbps",Voice,train
+M0677,"Enable ultra reliable low latency for the factory network, bandwidth 80Mbps",URLLC,train
+M0767,Set up internet of things,IoT,train
+M0440,Please provision high throughput broadband for a customer application,eMBB,train
+M0066,I would like to use emergency communication for a mobile user,Emergency,test
+M0928,"Enable internet of things for a new session, latency 20ms",IoT,train
+M0478,"Configure service for stream video for a new session, latency 80ms",Video,train
+M0538,"Set up mobile broadband for a mobile user, latency 50ms",eMBB,train
+M0320,"Please provision urllc for a connected device, critical priority",URLLC,train
+M0203,I would like to use massive sensors,mMTC,train
+M0962,Please provision critical push to talk with reliable delivery,Emergency,train
+M0817,"Configure service for low latency critical for the factory network, latency 10ms, bandwidth 5Mbps",URLLC,train
+M0926,I need video call for the factory network,Video,test
+M0791,Create a network intent for massive sensors as a priority service,mMTC,test
+M0649,"Create a network intent for urllc for a connected device, latency 50ms, bandwidth 80Mbps",URLLC,train
+M0384,My application needs embb for a customer application,eMBB,train
+M0033,"Allocate resources for urllc as a priority service, bandwidth 80Mbps",URLLC,train
+M0693,"Configure service for mmtc during peak load, bandwidth 30Mbps",mMTC,train
+M0752,My application needs emergency communication with reliable delivery,Emergency,train
+M0563,Allocate resources for critical push to talk for a connected device,Emergency,train
+M0215,I would like to use ultra-reliable low-latency communication as a priority service,URLLC,train
+M0619,"Enable emergency for a new session, latency 250ms",Emergency,train
+M0955,"Allocate resources for emergency communication for a connected device, latency 20ms",Emergency,train
+M0943,"Set up ultra reliable low latency for a connected device, latency 50ms",URLLC,train
+M0497,"Request support for massive machine type communication for the factory network, bandwidth 2Mbps",mMTC,train
+M0608,I would like to use embb for a new session,eMBB,train
+M0399,Enable mmtc for a new session,mMTC,train
+M0931,"Set up massive iot for the factory network, latency 20ms",mMTC,test
+M0151,"I need machine telemetry for a new session, latency 50ms",IoT,test
+M0518,"Allocate resources for massive sensors during peak load, critical priority",mMTC,train
+M0517,"Please provision embb for a customer application, latency 80ms, bandwidth 5Mbps",eMBB,train
+M0190,"My application needs voice call for a mobile user, latency 20ms",Voice,train
+M0417,"Enable machine telemetry as a priority service, bandwidth 2Mbps",IoT,train
+M0405,"I would like to use enhanced mobile broadband, bandwidth 5Mbps",eMBB,train
+M0666,Create a network intent for phone call during peak load,Voice,test
+M0108,I need emergency communication for a mobile user,Emergency,train
+M0971,Allocate resources for ultra reliable low latency,URLLC,test
+M0710,Enable first responder with reliable delivery,Emergency,train
+M0986,Please provision enhanced mobile broadband with reliable delivery,eMBB,test
+M0847,"I need massive sensors for the factory network, latency 20ms",mMTC,train
+M0496,"Create a network intent for embb with reliable delivery, latency 10ms, critical priority",eMBB,test
+M0143,Set up mcptt in the cellular network,Emergency,train
+M0415,"I need stream video during peak load, latency 80ms",Video,train
+M0590,Configure service for streaming during peak load,Video,train
+M0544,"Enable urllc for a mobile user, latency 20ms",URLLC,train
+M0740,My application needs low latency critical as a priority service,URLLC,train
+M0438,Set up sensor telemetry for the factory network,IoT,train
+M0720,Enable high throughput broadband,eMBB,train
+M0543,Enable internet of things for a mobile user,IoT,train
+M0255,Enable mcptt for a new session,Emergency,train
+M0990,Configure service for mcptt for a new session,Emergency,train
+M0327,My application needs ultra-reliable low-latency communication for a new session,URLLC,train
+M0279,Request support for embb during peak load,eMBB,train
+M0298,"Please provision iot during peak load, latency 80ms, critical priority",IoT,train
+M0498,Configure service for conversation for a new session,Voice,train
+M0325,"My application needs emergency in the cellular network, latency 80ms, bandwidth 10Mbps",Emergency,train
+M0605,"Set up critical push to talk as a priority service, bandwidth 20Mbps",Emergency,train
+M0458,I would like to use mcptt with reliable delivery,Emergency,train
+M0574,"Enable massive sensors during peak load, latency 50ms",mMTC,train
+M0705,"Request support for ultra-reliable low-latency communication for a customer application, bandwidth 40Mbps, critical priority",URLLC,train
+M0036,Enable voip as a priority service,Voice,test
+M0861,"Please provision mmtc for a customer application, bandwidth 80Mbps",mMTC,test
+M0924,I need massive sensors as a priority service,mMTC,train
+M0950,Please provision ultra-reliable low-latency communication for a new session,URLLC,train
+M0611,Enable video conference for a new session,Video,test
+M0019,"Request support for ultra-reliable low-latency communication in the cellular network, latency 50ms",URLLC,train
+M0139,"I need mobile broadband for a mobile user, latency 10ms",eMBB,train
+M0418,"Set up low latency critical, latency 20ms",URLLC,train
+M0667,"Create a network intent for stream video as a priority service, latency 80ms",Video,train
+M0456,I would like to use phone call during peak load,Voice,test
+M0732,I need internet of things as a priority service,IoT,train
+M0129,"Request support for mission critical push to talk during peak load, bandwidth 10Mbps",Emergency,train
+M0434,Enable massive machine type communication as a priority service,mMTC,train
+M0930,Request support for enhanced mobile broadband with reliable delivery,eMBB,train
+M0352,"I would like to use streaming in the cellular network, latency 250ms",Video,train
+M0387,Request support for video streaming in the cellular network,Video,train
+M0175,"Create a network intent for mmtc for a customer application, latency 50ms",mMTC,train
+M0793,"Set up video streaming for a new session, latency 10ms, bandwidth 10Mbps, critical priority",Video,train
+M0855,Create a network intent for voice service for a mobile user,Voice,train
+M0214,"Request support for sensor telemetry during peak load, latency 250ms",IoT,train
+M0294,My application needs massive machine type communication in the cellular network,mMTC,train
+M0461,"Enable enhanced mobile broadband for a new session, bandwidth 40Mbps",eMBB,test
+M0887,Allocate resources for urllc in the cellular network,URLLC,train
+M0992,Configure service for ultra reliable low latency for a new session,URLLC,train
+M0963,My application needs machine telemetry,IoT,train
+M0652,"I would like to use conversation with reliable delivery, latency 10ms",Voice,train
+M0020,I would like to use enhanced mobile broadband during peak load,eMBB,train
+M0526,"I need voip for a customer application, latency 20ms",Voice,test
+M0192,Enable mission critical push to talk during peak load,Emergency,train
+M0207,Configure service for machine telemetry for a connected device,IoT,train
+M0465,"Configure service for mcptt with reliable delivery, bandwidth 2Mbps",Emergency,train
+M0289,"Create a network intent for stream video during peak load, latency 80ms, bandwidth 2Mbps",Video,train
+M0273,"I need massive iot for the factory network, bandwidth 30Mbps",mMTC,train
+M0466,"Please provision internet of things with reliable delivery, latency 50ms",IoT,test
+M0005,"Allocate resources for ultra reliable low latency, bandwidth 2Mbps",URLLC,train
+M0657,"Set up enhanced mobile broadband for the factory network, bandwidth 40Mbps",eMBB,train
+M0521,"Please provision emergency with reliable delivery, bandwidth 40Mbps",Emergency,test
+M0451,"Configure service for first responder as a priority service, latency 80ms",Emergency,test
+M0507,"Allocate resources for critical push to talk in the cellular network, critical priority",Emergency,train
+M0100,"Enable streaming in the cellular network, latency 80ms, critical priority",Video,train
+M0392,I would like to use mmtc,mMTC,train
+M0718,"Create a network intent for iot, latency 100ms",IoT,train
+M0332,Create a network intent for critical push to talk,Emergency,train
+M0367,"I would like to use first responder as a priority service, latency 100ms",Emergency,train
+M0144,"Request support for sensor data, critical priority",IoT,train
+M0235,"Configure service for iot with reliable delivery, latency 80ms",IoT,train
+M0468,Set up embb during peak load,eMBB,train
+M0261,"Please provision stream video, bandwidth 40Mbps",Video,test
+M0725,"I need machine telemetry as a priority service, bandwidth 30Mbps",IoT,train
+M0734,Enable high throughput broadband for a customer application,eMBB,train
+M0112,"My application needs massive sensors for the factory network, latency 100ms",mMTC,train
+M0313,"Please provision urllc as a priority service, latency 10ms, bandwidth 80Mbps",URLLC,train
+M0060,My application needs iot in the cellular network,IoT,train
+M0365,"Request support for voip with reliable delivery, bandwidth 80Mbps",Voice,train
+M0046,"Enable machine telemetry for the factory network, latency 100ms",IoT,test
+M0284,Enable machine telemetry for a connected device,IoT,train
+M0445,"My application needs internet of things for a customer application, latency 50ms, bandwidth 10Mbps",IoT,train
+M0026,My application needs urllc for a connected device,URLLC,test
+M0912,My application needs streaming during peak load,Video,train
+M0412,"Please provision enhanced mobile broadband for a connected device, latency 20ms",eMBB,train
+M0048,Enable mobile broadband for a connected device,eMBB,train
+M0430,"Please provision mission critical push to talk during peak load, latency 10ms, critical priority",Emergency,train
+M0865,"Enable iot for a connected device, latency 80ms, bandwidth 2Mbps",IoT,train
+M0941,"My application needs critical push to talk for a customer application, bandwidth 2Mbps",Emergency,test
+M0527,I would like to use video streaming for a mobile user,Video,train
+M0562,"My application needs streaming with reliable delivery, latency 10ms, critical priority",Video,train
+M0441,"Allocate resources for massive iot with reliable delivery, bandwidth 5Mbps, critical priority",mMTC,test
+M0715,"Enable conversation as a priority service, latency 20ms",Voice,train
+M0329,"I would like to use massive iot with reliable delivery, bandwidth 20Mbps",mMTC,train
+M0719,Please provision ultra reliable low latency,URLLC,train
+M0342,"My application needs mobile broadband for a mobile user, critical priority",eMBB,train
+M0592,"I would like to use sensor data, latency 20ms",IoT,train
+M0851,Configure service for sensor data for a new session,IoT,test
+M0039,Request support for sensor data for a new session,IoT,train
+M0346,"Configure service for critical push to talk for a connected device, latency 20ms",Emergency,test
+M0295,"Allocate resources for conversation with reliable delivery, latency 50ms",Voice,train
+M0873,"I need urllc, bandwidth 5Mbps",URLLC,train
+M0846,Please provision enhanced mobile broadband with reliable delivery,eMBB,test
+M0603,My application needs conversation,Voice,train
+M0692,Configure service for high throughput broadband for a new session,eMBB,train
+M0490,"Request support for massive iot for a mobile user, latency 10ms",mMTC,train
+M0787,"I would like to use first responder for a customer application, latency 100ms",Emergency,train
+M0918,Enable voip with reliable delivery,Voice,train
+M0773,"I would like to use critical push to talk, bandwidth 2Mbps",Emergency,train
+M0038,My application needs first responder with reliable delivery,Emergency,train
+M0189,"Set up mmtc for a customer application, bandwidth 20Mbps",mMTC,train
+M0661,"Please provision emergency for a new session, latency 20ms, bandwidth 20Mbps, critical priority",Emergency,test
+M0248,Request support for first responder in the cellular network,Emergency,train
+M0864,Request support for mcptt for a new session,Emergency,train
+M0809,"I would like to use sensor data, bandwidth 40Mbps",IoT,train
+M0965,"I would like to use high throughput broadband for a customer application, bandwidth 20Mbps",eMBB,train
+M0237,"I need mobile broadband, bandwidth 30Mbps",eMBB,train
+M0117,"My application needs urllc as a priority service, bandwidth 40Mbps",URLLC,train
+M0216,Please provision high throughput broadband for a mobile user,eMBB,test
+M0373,"Configure service for video conference for a new session, latency 20ms, bandwidth 5Mbps",Video,train
+M0258,Enable enhanced mobile broadband for the factory network,eMBB,train
+M0176,Please provision voip,Voice,test
+M0050,Create a network intent for phone call for a mobile user,Voice,train
+M0599,Configure service for internet of things for a customer application,IoT,train
+M0910,"Allocate resources for massive iot for a connected device, latency 20ms",mMTC,train
+M0153,"Enable embb as a priority service, bandwidth 80Mbps",eMBB,train
+M0895,"Request support for enhanced mobile broadband, latency 10ms",eMBB,train
+M0709,"I would like to use video call during peak load, latency 10ms, bandwidth 2Mbps",Video,train
+M0749,"Allocate resources for massive iot for a mobile user, bandwidth 10Mbps, critical priority",mMTC,train
+M0072,Allocate resources for streaming for a connected device,Video,train
+M0567,Request support for massive sensors for a mobile user,mMTC,train
+M0344,Enable conversation for a mobile user,Voice,train
+M0001,"Set up conversation as a priority service, latency 50ms, bandwidth 10Mbps, critical priority",Voice,test
+M0406,"I need mmtc during peak load, latency 250ms",mMTC,test
+M0104,Set up embb in the cellular network,eMBB,train
+M0180,I need ultra-reliable low-latency communication for a connected device,URLLC,train
+M0450,Please provision video call in the cellular network,Video,train
+M0974,Configure service for conversation in the cellular network,Voice,train
+M0206,Request support for emergency communication during peak load,Emergency,test
+M0759,Configure service for emergency during peak load,Emergency,train
+M0973,"I would like to use massive machine type communication with reliable delivery, latency 100ms, bandwidth 5Mbps",mMTC,train
+M0002,Please provision video streaming during peak load,Video,train
+M0423,I need emergency as a priority service,Emergency,train
+M0183,Enable voice call with reliable delivery,Voice,train
+M0875,Allocate resources for massive machine type communication with reliable delivery,mMTC,train
+M0362,I would like to use ultra reliable low latency for a customer application,URLLC,train
+M0174,Enable high throughput broadband for a mobile user,eMBB,train
+M0233,"I would like to use stream video for a new session, bandwidth 2Mbps",Video,train
+M0029,"Create a network intent for phone call during peak load, bandwidth 20Mbps",Voice,train
+M0056,"Enable massive iot in the cellular network, critical priority",mMTC,test
+M0462,Create a network intent for massive sensors,mMTC,train
+M0612,I would like to use emergency communication in the cellular network,Emergency,train
+M0211,"Enable phone call during peak load, latency 50ms",Voice,test
+M0433,"Allocate resources for high throughput broadband for a mobile user, latency 100ms, bandwidth 80Mbps",eMBB,train
+M0905,"Configure service for video call in the cellular network, bandwidth 80Mbps",Video,train
+M0388,"Request support for mission critical push to talk for a new session, latency 10ms",Emergency,train
+M0013,"Set up mobile broadband during peak load, latency 50ms, bandwidth 10Mbps",eMBB,train
+M0300,Enable embb as a priority service,eMBB,train
+M0609,"Set up massive machine type communication as a priority service, bandwidth 20Mbps",mMTC,train
+M0655,"My application needs iot for the factory network, latency 80ms",IoT,train
+M0789,"Enable urllc during peak load, bandwidth 80Mbps",URLLC,train
+M0113,"Request support for conversation as a priority service, bandwidth 40Mbps",Voice,train
+M0032,Enable sensor data,IoT,train
+M0265,"I would like to use mobile broadband for the factory network, latency 10ms, bandwidth 30Mbps, critical priority",eMBB,train
+M0120,My application needs conversation with reliable delivery,Voice,train
+M0644,Allocate resources for mmtc during peak load,mMTC,train
+M0969,"Request support for mission critical push to talk for a connected device, bandwidth 30Mbps, critical priority",Emergency,train
+M0894,Set up urllc,URLLC,train
+M0409,"Please provision mcptt, latency 250ms, bandwidth 20Mbps",Emergency,train
+M0322,"Set up massive iot with reliable delivery, latency 100ms",mMTC,train
+M0041,"Please provision high throughput broadband for a new session, bandwidth 10Mbps",eMBB,test
+M0422,I would like to use video conference,Video,train
+M0481,"Create a network intent for urllc for a connected device, latency 20ms, bandwidth 40Mbps",URLLC,test
+M0917,"I would like to use massive iot for a mobile user, bandwidth 80Mbps",mMTC,train
+M0503,Enable high throughput broadband for a connected device,eMBB,train
+M0528,My application needs mission critical push to talk for a new session,Emergency,train
+M0473,"Please provision sensor data for a mobile user, bandwidth 30Mbps",IoT,train
+M0195,My application needs high throughput broadband with reliable delivery,eMBB,train
+M0242,I would like to use sensor data during peak load,IoT,train
+M0856,"My application needs video conference in the cellular network, latency 50ms",Video,test
+M0733,"Create a network intent for low latency critical for the factory network, latency 50ms, bandwidth 5Mbps",URLLC,train
+M0427,"I need massive sensors as a priority service, latency 10ms",mMTC,train
+M0165,"Enable sensor data for a connected device, bandwidth 80Mbps",IoT,train
+M0897,"Enable voip with reliable delivery, bandwidth 20Mbps",Voice,train
+M0063,Configure service for massive sensors,mMTC,train
+M0502,"I would like to use ultra-reliable low-latency communication for a connected device, latency 100ms",URLLC,train

@@ -1,0 +1,30 @@
+@prefix im: <https://example.org/intent-management#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+im: a owl:Ontology ; rdfs:label "IntentOps cellular intent ontology" .
+im:Service a owl:Class . im:IntentRequest a owl:Class . im:GBRService a owl:Class ; rdfs:subClassOf im:Service . im:NGBRService a owl:Class ; rdfs:subClassOf im:Service .
+im:hasAlias a owl:DatatypeProperty ; rdfs:domain im:Service ; rdfs:range xsd:string .
+im:targetLatencyMs a owl:DatatypeProperty ; rdfs:domain im:IntentRequest ; rdfs:range xsd:double .
+im:requestedBandwidthMbps a owl:DatatypeProperty ; rdfs:domain im:IntentRequest ; rdfs:range xsd:double .
+im:requestedMaxPacketLossPercent a owl:DatatypeProperty ; rdfs:domain im:IntentRequest ; rdfs:range xsd:double .
+im:requestedPriority a owl:DatatypeProperty ; rdfs:domain im:IntentRequest ; rdfs:range xsd:integer .
+im:requiresLatencyMs a owl:DatatypeProperty ; rdfs:domain im:Service ; rdfs:range xsd:decimal .
+im:requiresBandwidthMbps a owl:DatatypeProperty ; rdfs:domain im:Service ; rdfs:range xsd:decimal .
+im:maxPacketLossPercent a owl:DatatypeProperty ; rdfs:domain im:Service ; rdfs:range xsd:decimal .
+im:priority a owl:DatatypeProperty ; rdfs:domain im:Service ; rdfs:range xsd:integer .
+im:serviceClass a owl:DatatypeProperty ; rdfs:domain im:Service ; rdfs:range xsd:string .
+im:requiresResource a owl:ObjectProperty ; rdfs:domain im:Service ; rdfs:range im:Resource .
+im:compatibleWith a owl:ObjectProperty ; rdfs:domain im:Service ; rdfs:range im:Service .
+im:conflictsWith a owl:ObjectProperty ; rdfs:domain im:Service ; rdfs:range im:Service .
+im:Resource a owl:Class . im:RadioCapacity a im:Resource ; rdfs:label "radio capacity" .
+
+im:Voice a im:Service, im:GBRService ; rdfs:label "Voice" ; im:hasAlias "voice call" , "voice service" , "phone call" , "conversation" , "voip" ; im:requiresLatencyMs 50.0 ; im:requiresBandwidthMbps 40.0 ; im:maxPacketLossPercent 1.0 ; im:priority 3 ; im:serviceClass "GBR" ; im:requiresResource im:RadioCapacity .
+im:Video a im:Service, im:NGBRService ; rdfs:label "Video" ; im:hasAlias "video streaming" , "stream video" , "video conference" , "video call" , "streaming" ; im:requiresLatencyMs 100.0 ; im:requiresBandwidthMbps 35.0 ; im:maxPacketLossPercent 2.0 ; im:priority 2 ; im:serviceClass "NGBR" ; im:requiresResource im:RadioCapacity .
+im:Emergency a im:Service, im:GBRService ; rdfs:label "Emergency" ; im:hasAlias "emergency" , "mcptt" , "mission critical push to talk" , "critical push to talk" , "first responder" , "emergency communication" ; im:requiresLatencyMs 20.0 ; im:requiresBandwidthMbps 30.0 ; im:maxPacketLossPercent 0.5 ; im:priority 5 ; im:serviceClass "GBR" ; im:requiresResource im:RadioCapacity ; im:conflictsWith im:Video .
+im:IoT a im:Service, im:NGBRService ; rdfs:label "IoT" ; im:hasAlias "iot" , "sensor telemetry" , "sensor data" , "machine telemetry" , "internet of things" ; im:requiresLatencyMs 250.0 ; im:requiresBandwidthMbps 5.0 ; im:maxPacketLossPercent 5.0 ; im:priority 1 ; im:serviceClass "NGBR" ; im:requiresResource im:RadioCapacity .
+im:URLLC a im:Service, im:GBRService ; rdfs:label "URLLC" ; im:hasAlias "urllc" , "ultra reliable low latency" , "ultra-reliable low-latency communication" , "low latency critical" ; im:requiresLatencyMs 10.0 ; im:requiresBandwidthMbps 20.0 ; im:maxPacketLossPercent 0.1 ; im:priority 5 ; im:serviceClass "GBR" ; im:requiresResource im:RadioCapacity ; im:compatibleWith im:Emergency .
+im:eMBB a im:Service, im:NGBRService ; rdfs:label "eMBB" ; im:hasAlias "embb" , "enhanced mobile broadband" , "high throughput broadband" , "mobile broadband" ; im:requiresLatencyMs 100.0 ; im:requiresBandwidthMbps 80.0 ; im:maxPacketLossPercent 1.0 ; im:priority 2 ; im:serviceClass "NGBR" ; im:requiresResource im:RadioCapacity .
+im:mMTC a im:Service, im:NGBRService ; rdfs:label "mMTC" ; im:hasAlias "mmtc" , "massive machine type communication" , "massive iot" , "massive sensors" ; im:requiresLatencyMs 500.0 ; im:requiresBandwidthMbps 2.0 ; im:maxPacketLossPercent 5.0 ; im:priority 1 ; im:serviceClass "NGBR" ; im:requiresResource im:RadioCapacity .

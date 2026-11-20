@@ -1,0 +1,13 @@
+Dataset preprocessing summary
+Generated at: 2026-10-11T10:36:03.092192826Z
+Seed: 20261011
+Requested rows: 1000
+Clean rows: 1000
+Missing-value policy: service-template median/default imputation
+Range checks: latency > 0, bandwidth > 0, loss in [0,100], priority in [1,5]
+Scaling: z-score (x - mean) / standard deviation for latency, bandwidth and packet loss
+Deduplication: deterministic unique record IDs; generated KG template links are repeatable
+Label: synthetic, rule-derived compliance indicator; not measured 5G ground truth
+Mean latency: 149.607659; SD: 167.179110
+Mean bandwidth: 30.044065; SD: 24.569326
+Mean packet loss: 2.448344; SD: 2.167708

@@ -1,0 +1,16 @@
+@prefix im: <https://example.org/intent-management#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+im:ServiceShape a sh:NodeShape ; sh:targetClass im:Service ;
+ sh:property [ sh:path im:requiresLatencyMs ; sh:datatype xsd:decimal ; sh:minCount 1 ; sh:minExclusive 0 ],
+             [ sh:path im:requiresBandwidthMbps ; sh:datatype xsd:decimal ; sh:minCount 1 ; sh:minExclusive 0 ],
+             [ sh:path im:maxPacketLossPercent ; sh:datatype xsd:decimal ; sh:minCount 1 ; sh:minInclusive 0 ; sh:maxInclusive 100 ],
+             [ sh:path im:priority ; sh:datatype xsd:integer ; sh:minCount 1 ; sh:minInclusive 1 ; sh:maxInclusive 5 ],
+             [ sh:path im:hasAlias ; sh:minCount 1 ] .
+
+
+im:IntentRequestShape a sh:NodeShape ; sh:targetClass im:IntentRequest ;
+ sh:property [ sh:path im:targetLatencyMs ; sh:datatype xsd:double ; sh:minCount 1 ; sh:minExclusive 0 ],
+             [ sh:path im:requestedBandwidthMbps ; sh:datatype xsd:double ; sh:minCount 1 ; sh:minExclusive 0 ],
+             [ sh:path im:requestedMaxPacketLossPercent ; sh:datatype xsd:double ; sh:minCount 1 ; sh:minInclusive 0 ; sh:maxInclusive 100 ],
+             [ sh:path im:requestedPriority ; sh:datatype xsd:integer ; sh:minCount 1 ; sh:minInclusive 1 ; sh:maxInclusive 5 ] .

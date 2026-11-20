@@ -1,0 +1,4 @@
+id,intent
+U001,"Provide a high priority voice call with latency below 50 ms and bandwidth 2 Mbps"
+U002,"Stream video with 8 Mbps bandwidth and latency target 100 ms"
+U003,"Emergency communication, critical priority, latency 20 ms, bandwidth 5 Mbps"
